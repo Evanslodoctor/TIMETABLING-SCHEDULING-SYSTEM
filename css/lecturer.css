@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;   
+   }
+   body
+   {
+       background-image: url("/Images/computer-lab.jpg") ;
+       background-repeat: no-repeat;
+       background-size: cover;
+   
+   
+   }  
+    
+   .register-body 
+   {
+       height: 500px;
+       width: 400px;
+       background-color: rgb(243, 233, 233);
+       margin: 30px 500px;
+       /* justify-content: center; */
+       /* align-items: center; */
+       display: grid;
+       
+       grid-template-rows: 2fr 9fr 1fr;
+       border-radius: 20px;
+       
+   }
+   .register-body-content{
+      
+    background-color: rgb(15, 119, 6);  
+       border-radius: 20px 20px 0 0;
+   }
+   
+   .register-body .title h1
+   {
+   text-align: center;
+   color: white;
+   
+   }
+   .register-navbar
+   {
+      padding: 10px;
+       
+   }
+   
+   
+   .register-navbar ul
+   {
+       list-style: none;
+       justify-content: center;
+       display: flex;
+   
+       
+   }
+   
+   .register-navbar ul li
+   {
+    padding-left: 20px;
+   }
+   
+   /* .register-navbar ul li a
+   {
+       text-decoration: none;
+       color:  white;
+   } */
+   
+   .register-navbar ul li a
+   {
+       width: 100px;
+       display: block;
+       align-items: center;
+       padding: 16px 0;
+       justify-content: center;
+       text-decoration: none;
+       font-family: Arial;
+       color: rgb(255, 255, 255);
+       text-align: center;
+      
+   
+   }
+   .register-navbar ul li a:hover
+   {
+       background-color: aliceblue;
+       text-transform: uppercase;
+       color: black;
+       border-radius: 20px;
+       
+       
+   }
+   
+   /* .form-main{
+       display: grid;
+       grid-template-rows: 8fr 1fr;
+       justify-content: center;
+       align-items: center;
+   } */
+   /* .form-main .form-content{
+       display: grid;
+       grid-template-rows: 2fr 2fr 2fr;
+       
+   } */
+   
+   label{
+       padding-bottom: 0.2rem;
+       color: black;
+   }
+   .form-main .form-content input
+   {
+       padding: 4px 0;
+       border-radius: 5px;
+       border: solid 1px;
+   }
+
+   .form-main .form-content select{
+       margin: 14px 0 0 0;
+    padding: 4px 5px;
+    border-radius: 5px;
+    border: solid 1px;
+   }
+   .form-main .form-content input::placeholder{
+       padding-left: 0.6rem;
+   }
+   
+   .form-main .form-btn{
+       text-align: center;
+       
+   
+   }
+   
+   .form-main .form-btn button{
+       width: 9rem;
+       height: 30px;
+       border-radius: 15px;
+       background-color: rgb(15, 119, 6); 
+       color: white;
+   
+   }
+   .form-main .form-btn button:hover{
+       
+    background-color: rgba(15, 119, 6, 0.301); 
+       color: aliceblue;
+   }
+   .form-main .login-register-text
+   {
+   margin-top: 20px;
+   text-align: center;
+   }
+   

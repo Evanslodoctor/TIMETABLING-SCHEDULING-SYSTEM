@@ -1,0 +1,46 @@
+.admin__main-body{
+    
+  
+    
+    display: grid;
+    grid-template-rows: 1fr 11fr;
+}
+
+
+
+.admin__main-body .admin__main-section{
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+
+}
+
+.admin__main-section .admin-links{
+    background-color: rgb(10, 161, 32);
+    
+    
+}
+.admin__main-section .admin-links div{
+    padding: 20px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin__main-section .admin-links a{
+    text-decoration: none;
+    font-size: 1.8rem;
+color: whitesmoke;
+
+}
+
+.admin__main-section .admin-links a:hover{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 7px 2px;
+    color: black;
+}
+
+.admin-form{
+    background-image: url("/Images/computer-lab.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

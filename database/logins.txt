@@ -1,0 +1,14 @@
+User name Admin
+Password 12345
+
+
+Student
+
+Ashley
+password Ashley
+
+
+Lecturer
+
+username John
+pasword 123456 in default

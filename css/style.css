@@ -1,0 +1,224 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+ul
+{
+    width: 100%;
+    list-style: none;
+    margin: 0 0 0 250px;
+
+}
+
+
+.logo
+{
+    
+    width:100%;
+    overflow:hidden;
+    background: rgb(0, 9, 14);
+    color: #f1f1f1;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.container
+{
+   display: grid;
+   grid-template-rows: 1fr,1fr;
+}
+.main-body
+{
+    height: 500px;
+    width: 900px;
+    background-color: rgba(24, 11, 11, 0.7);
+    margin: 20px 200px;
+    display: grid;
+    border-radius: 20px 20px 0 0;
+    grid-template-rows: 1fr 10fr;
+
+}
+
+.navbar
+{ 
+    background-color: rgb(15, 119, 6); 
+    border-radius: 20px 20px 0 0;
+
+}
+
+.navbar ul
+{
+    /* padding-left: 200px; */
+}
+.navbar ul li
+{
+float: left;
+
+
+
+/*  */
+    
+}
+li a
+{
+    width: 100px;
+    display: block;
+    align-items: center;
+    padding: 16px 0;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+   
+
+}
+li a:hover
+{
+    background-color: aliceblue;
+    text-transform: uppercase;
+    color: black;
+}
+.loginbtn
+{
+    
+    background-color: rgb(15, 119, 6); 
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    
+}
+.login
+{
+    
+        position: relative;
+        display: inline-block;
+      
+}
+.login-content
+{
+    
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      
+}
+.login-content a
+{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.login-content a:hover {background-color: #f1f1f1}
+
+.login:hover .login-content {
+    display: block;
+  }
+
+  .registerbtn
+  {
+      
+    background-color: rgb(15, 119, 6); 
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+      
+  }
+  .register
+{
+    
+        position: relative;
+        display: inline-block;
+      
+}
+
+.register-content
+{
+    
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      
+}
+.register-content a
+{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.register-content a:hover {background-color: #f1f1f1}
+
+.register:hover .register-content {
+    display: block;
+  }
+
+
+.main-section h3
+{
+color: white;
+padding-left: 50px;
+
+}
+.main-section-content
+{
+    padding: 50px 30px;
+}
+.contact-main-section
+{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color: yellow; 
+    height: 300px;
+    width:500px ;
+    justify-content: center;
+    margin: 10px 400px;
+
+}
+.contact-form-main
+{
+    text-align: center;
+    display: grid;
+}
+.contact-form-main p{
+    color: white;
+    margin-top: 10px;
+}
+
+.contact-form-main  input{
+    margin-top: 20px;
+    width: 400px;
+    height: 25px;
+}
+.contact-form-main .message input{
+    height:40px ;
+}
+.contact-form-main .contact-btn button{
+    border-radius: 2px;
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    background-color:black; 
+    color: white;
+
+}
+#contactus
+{
+    margin-bottom: 30px;
+}
