@@ -1,0 +1,41 @@
+.admin__main-body{
+    margin: 0 auto;
+   
+    width: 98%;
+    display: grid;
+    grid-template-rows: 1fr 11fr;
+}
+
+
+
+.admin__main-body .admin__main-section{
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+
+.admin__main-section .adminlinks{
+   
+    
+    
+}
+
+
+.admin__main-section .adminlinks a{
+    text-decoration: none;
+    font-size: 1.0rem;
+  
+
+
+}
+
+.admin__main-section .adminlinks a:hover{
+    color: black;
+    border-radius: 10px;
+    padding: 7px 2px;
+}
+
+.admin-form{
+    background-image: url("/Images/computer-lab.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
